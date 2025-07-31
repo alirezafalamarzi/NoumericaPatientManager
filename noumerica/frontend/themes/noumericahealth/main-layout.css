@@ -1,0 +1,40 @@
+vaadin-scroller[slot="drawer"] {
+  padding: var(--lumo-space-s);
+}
+
+vaadin-side-nav-item vaadin-icon {
+  padding: 0;
+}
+
+[slot="drawer"]:is(header, footer) {
+  display: flex;
+  align-items: center;
+  gap: var(--lumo-space-s);
+  padding: var(--lumo-space-s) var(--lumo-space-m);
+  min-height: var(--lumo-size-xl);
+  box-sizing: border-box;
+}
+
+[slot="drawer"]:is(header, footer):is(:empty) {
+  display: none;
+}
+
+.dashboard-view {
+    flex-direction: column;
+}
+
+.dashboard-panels {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: var(--lumo-space-m);
+    gap: var(--lumo-space-m);
+}
+
+.dashboard-panel {
+    background-color: var(--lumo-base-color);
+    border-radius: var(--lumo-border-radius);
+    box-shadow: var(--lumo-box-shadow-s);
+    padding: var(--lumo-space-m);
+    overflow: hidden;
+    flex-grow: 1;
+}

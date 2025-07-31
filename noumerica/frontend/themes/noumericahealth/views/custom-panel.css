@@ -1,0 +1,23 @@
+.custom-panel {
+    border: 1px solid var(--lumo-header-text-color);
+    border-radius: 5px;
+    padding: 0px;
+    margin: 0px;
+}
+.panel-header {
+    color: var(--lumo-primary-contrast-color);
+    background-color: var(--lumo-header-text-color);
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.panel-content {
+    box-sizing: border-box;
+}
+
+.panel-header-text {
+    color: var(--lumo-primary-contrast-color);
+    background-color: var(--lumo-header-text-color);
+    padding: 10px;
+    /*box-sizing: border-box;*/
+}

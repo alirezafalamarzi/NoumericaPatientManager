@@ -1,0 +1,10 @@
+@import url('./main-layout.css');
+@import url('./views/dashboard-view.css');
+@import url('./views/image-gallery-view.css');
+@import url('./views/patient-view.css');
+@import url('./views/custom-panel.css');
+html {
+      --lumo-base-color: #fafafa;
+}
+
+
